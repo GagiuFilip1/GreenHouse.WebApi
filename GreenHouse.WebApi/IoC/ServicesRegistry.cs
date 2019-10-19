@@ -21,6 +21,7 @@ namespace GreenHouse.IoC
             // Add Here GraphQl Enums
             services.AddSingleton<OrderDirectionEnum>();
             services.AddSingleton<AccountTypeEnum>();
+            services.AddSingleton<DeforestStateTypeEnum>();
 
             // Add Here New Schemas
 

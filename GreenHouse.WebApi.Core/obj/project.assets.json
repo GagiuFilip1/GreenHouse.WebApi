@@ -4086,7 +4086,8 @@
     ]
   },
   "packageFolders": {
-    "/home/filip/.nuget/packages/": {}
+    "/home/filip/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4097,6 +4098,9 @@
       "packagesPath": "/home/filip/.nuget/packages/",
       "outputPath": "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/filip/.config/NuGet/NuGet.Config"
       ],

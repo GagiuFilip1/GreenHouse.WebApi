@@ -13,6 +13,9 @@
         "packagesPath": "/home/filip/.nuget/packages/",
         "outputPath": "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/home/filip/.config/NuGet/NuGet.Config"
         ],

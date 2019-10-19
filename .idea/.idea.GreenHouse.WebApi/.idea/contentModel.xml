@@ -68,6 +68,7 @@
         <e p="Models" t="Include">
           <e p="Enums" t="Include">
             <e p="AccountType.cs" t="Include" />
+            <e p="DeforestState.cs" t="Include" />
             <e p="OrderDirection.cs" t="Include" />
           </e>
           <e p="GraphQl" t="Include">
@@ -84,6 +85,10 @@
           </e>
           <e p="MainModels" t="Include">
             <e p="Account.cs" t="Include" />
+            <e p="Contributor.cs" t="Include" />
+            <e p="Report.cs" t="Include" />
+            <e p="Schedule.cs" t="Include" />
+            <e p="UserFriend.cs" t="Include" />
           </e>
           <e p="Tools" t="Include">
             <e p="AppSettings.cs" t="Include" />

@@ -19,4 +19,12 @@ namespace GreenHouse.Core.Models.GraphQl.enums
             Name = "Account Type";
         }
     }
+    
+    public class DeforestStateTypeEnum : EnumerationGraphType<DeforestState>
+    {
+        public DeforestStateTypeEnum()
+        {
+            Name = "Deforestation State";
+        }
+    }
 }

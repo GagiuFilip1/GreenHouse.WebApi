@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GreenHouse.Core.Models.Enums;
 using GreenHouse.Core.Models.Tools;
 
@@ -15,5 +16,9 @@ namespace GreenHouse.Core.Models.MainModels
         public string Password { get; set; }
         
         public AccountType Type { get; set; }
+        
+        public List<Report> UserReports { get; set;}
+        
+        public List<UserFriend> Friends { get; set; }
     }
 }
