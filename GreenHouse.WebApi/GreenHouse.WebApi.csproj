@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <RootNamespace>GreenHouse</RootNamespace>
-        <LangVersion>latest</LangVersion>
+        <LangVersion>preview</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -26,12 +26,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="GraphQL\actionModel\input" />
-      <Folder Include="GraphQL\actionModel\output" />
-      <Folder Include="GraphQL\schemas\schemaGroups" />
       <Folder Include="Migrations" />
-      <Folder Include="Repositories\implementation" />
-      <Folder Include="Repositories\model" />
     </ItemGroup>
 
 </Project>

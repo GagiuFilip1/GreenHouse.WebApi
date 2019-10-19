@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using GraphQL.Types;
+using GreenHouse.Core.Models;
+using GreenHouse.GraphQL.actionModel.output;
 
 namespace GreenHouse.GraphQL.helpers
 {
@@ -18,5 +20,13 @@ namespace GreenHouse.GraphQL.helpers
     {
         public long TotalCount { get; set; }
         public IList<T> Items { get; set; }
+    }
+    
+    public class ListAccountQueryModelType : ListResponseType<AccountQueryType>
+    {
+    }
+    
+    public class ListUserFriendQueryModelType : ListResponseType<UserFriendQueryType>
+    {
     }
 }

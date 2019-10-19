@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using GreenHouse.Core.Models.GraphQl.requestHelpers;
+using GreenHouse.Core.GraphQl.requestHelpers;
 using Microsoft.EntityFrameworkCore;
 
 namespace GreenHouse.Context.extensions

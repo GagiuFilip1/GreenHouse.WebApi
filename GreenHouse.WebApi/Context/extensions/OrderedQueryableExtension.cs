@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using GreenHouse.Core.Models.Enums;
+using GreenHouse.Core.Enums;
 
 namespace GreenHouse.Context.extensions
 {

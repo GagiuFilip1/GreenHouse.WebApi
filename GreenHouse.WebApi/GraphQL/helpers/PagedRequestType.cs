@@ -1,5 +1,5 @@
 using GraphQL.Types;
-using GreenHouse.Core.Models.GraphQl.requestHelpers;
+using GreenHouse.Core.GraphQl.requestHelpers;
 
 namespace GreenHouse.GraphQL.helpers
 {

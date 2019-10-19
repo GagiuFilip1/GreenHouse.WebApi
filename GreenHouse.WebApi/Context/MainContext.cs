@@ -1,7 +1,8 @@
 using System;
-using GreenHouse.Core.Models.Enums;
-using GreenHouse.Core.Models.MainModels;
-using GreenHouse.Core.Models.Tools;
+using GreenHouse.Core.Enums;
+using GreenHouse.Core.Models;
+using GreenHouse.Core.Tools;
+using GreenHouse.GraphQL.helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -34,7 +35,7 @@ namespace GreenHouse.Context
             SetPrimaryKeys(modelBuilder);
             SetForeignKeys(modelBuilder);
             SetAllIndex(modelBuilder);
-            SetEnumConversion(modelBuilder);
+            SetConversions(modelBuilder);
             SetDefaultValues(modelBuilder);
             base.OnModelCreating(modelBuilder);
         }
@@ -53,7 +54,7 @@ namespace GreenHouse.Context
             modelBuilder.Entity<UserFriend>().HasOne(t => t.User)
                 .WithMany(t => t.Friends)
                 .HasForeignKey(t => t.UserId);
-            
+
             modelBuilder.Entity<Report>().HasOne(t => t.Account)
                 .WithMany(t => t.UserReports)
                 .HasForeignKey(t => t.UserId);
@@ -77,16 +78,16 @@ namespace GreenHouse.Context
             modelBuilder.Entity<UserFriend>().HasIndex(t => t.Id);
             modelBuilder.Entity<UserFriend>().HasIndex(t => t.UserId);
             modelBuilder.Entity<UserFriend>().HasIndex(t => t.FriendId);
-            
+
             modelBuilder.Entity<Schedule>().HasIndex(t => t.Id);
             modelBuilder.Entity<Schedule>().HasIndex(t => t.ReportId);
-            
+
             modelBuilder.Entity<Contributor>().HasIndex(t => t.Id);
             modelBuilder.Entity<Contributor>().HasIndex(t => t.ReportId);
             modelBuilder.Entity<Contributor>().HasIndex(t => t.UserId);
         }
 
-        private static void SetEnumConversion(ModelBuilder modelBuilder)
+        private static void SetConversions(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Account>().Property(t => t.Type).HasConversion(
                 e => e.ToString(),

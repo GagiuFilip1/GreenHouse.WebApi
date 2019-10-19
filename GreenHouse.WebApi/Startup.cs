@@ -1,7 +1,7 @@
 ﻿using GraphQL.Server;
 using GraphQL.Types;
 using GreenHouse.Context;
-using GreenHouse.Core.Models.Tools;
+using GreenHouse.Core.Tools;
 using GreenHouse.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

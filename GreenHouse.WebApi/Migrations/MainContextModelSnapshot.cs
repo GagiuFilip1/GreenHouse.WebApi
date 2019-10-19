@@ -17,7 +17,7 @@ namespace GreenHouse.Migrations
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Account", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Account", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -41,7 +41,7 @@ namespace GreenHouse.Migrations
                     b.ToTable("Accounts");
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Contributor", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Contributor", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -63,7 +63,7 @@ namespace GreenHouse.Migrations
                     b.ToTable("Contributors");
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Report", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Report", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -91,7 +91,7 @@ namespace GreenHouse.Migrations
                     b.ToTable("Reports");
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Schedule", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Schedule", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -112,16 +112,20 @@ namespace GreenHouse.Migrations
                     b.ToTable("Schedules");
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.UserFriend", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.UserFriend", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<Guid?>("AccountId");
 
                     b.Property<Guid>("FriendId");
 
                     b.Property<Guid>("UserId");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AccountId");
 
                     b.HasIndex("FriendId");
 
@@ -132,33 +136,37 @@ namespace GreenHouse.Migrations
                     b.ToTable("Friends");
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Contributor", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Contributor", b =>
                 {
-                    b.HasOne("GreenHouse.Core.Models.MainModels.Report", "Report")
+                    b.HasOne("GreenHouse.Core.Models.Report", "Report")
                         .WithMany("Contributors")
                         .HasForeignKey("ReportId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Report", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Report", b =>
                 {
-                    b.HasOne("GreenHouse.Core.Models.MainModels.Account", "Account")
+                    b.HasOne("GreenHouse.Core.Models.Account", "Account")
                         .WithMany("UserReports")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.Schedule", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.Schedule", b =>
                 {
-                    b.HasOne("GreenHouse.Core.Models.MainModels.Report", "Report")
+                    b.HasOne("GreenHouse.Core.Models.Report", "Report")
                         .WithOne("Schedule")
-                        .HasForeignKey("GreenHouse.Core.Models.MainModels.Schedule", "ReportId")
+                        .HasForeignKey("GreenHouse.Core.Models.Schedule", "ReportId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("GreenHouse.Core.Models.MainModels.UserFriend", b =>
+            modelBuilder.Entity("GreenHouse.Core.Models.UserFriend", b =>
                 {
-                    b.HasOne("GreenHouse.Core.Models.MainModels.Account", "User")
+                    b.HasOne("GreenHouse.Core.Models.Account")
+                        .WithMany("FriendsNames")
+                        .HasForeignKey("AccountId");
+
+                    b.HasOne("GreenHouse.Core.Models.Account", "User")
                         .WithMany("Friends")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);

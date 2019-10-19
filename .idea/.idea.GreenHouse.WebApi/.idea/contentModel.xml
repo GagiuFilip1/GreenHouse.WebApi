@@ -16,28 +16,51 @@
           </e>
           <e p="MainContext.cs" t="Include" />
         </e>
+        <e p="Encoder" t="Include">
+          <e p="ShaEncoder.cs" t="Include" />
+        </e>
         <e p="GraphQL" t="Include">
           <e p="actionModel" t="Include">
-            <e p="input" t="Include" />
-            <e p="output" t="Include" />
+            <e p="input" t="Include">
+              <e p="account" t="Include">
+                <e p="AccountCreateViewModel.cs" t="Include" />
+                <e p="AccountFilteredRequestType.cs" t="Include" />
+              </e>
+              <e p="friends" t="Include">
+                <e p="UserFriendCreateViewModel.cs" t="Include" />
+                <e p="UserFriendFilteredRequestType.cs" t="Include" />
+              </e>
+            </e>
+            <e p="output" t="Include">
+              <e p="AccountQueryType.cs" t="Include" />
+              <e p="UserFriendQueryType.cs" t="Include" />
+            </e>
           </e>
           <e p="helpers" t="Include">
+            <e p="Convertors.cs" t="Include" />
             <e p="ListResponseType.cs" t="Include" />
             <e p="OrderedRequestType.cs" t="Include" />
             <e p="PagedRequestType.cs" t="Include" />
           </e>
           <e p="mutation" t="Include">
+            <e p="AccountMutation.cs" t="Include" />
             <e p="RootMutation.cs" t="Include" />
+            <e p="UserFriendMutation.cs" t="Include" />
           </e>
           <e p="queries" t="Include">
+            <e p="AccountQuery.cs" t="Include" />
             <e p="RootQuery.cs" t="Include" />
+            <e p="UserFriendQuery.cs" t="Include" />
           </e>
           <e p="schemas" t="Include">
             <e p="models" t="Include">
               <e p="ISchemaGroup.cs" t="Include" />
             </e>
             <e p="RootSchema.cs" t="Include" />
-            <e p="schemaGroups" t="Include" />
+            <e p="schemaGroups" t="Include">
+              <e p="AccountSchema.cs" t="Include" />
+              <e p="UserFriendSchema.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="GreenHouse.WebApi.csproj" t="IncludeRecursive" />
@@ -45,8 +68,8 @@
           <e p="ServicesRegistry.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20191019083445_MainModelsIntegration.cs" t="Include" />
-          <e p="20191019083445_MainModelsIntegration.Designer.cs" t="Include" />
+          <e p="20191019113926_ModelsInitialisation.cs" t="Include" />
+          <e p="20191019113926_ModelsInitialisation.Designer.cs" t="Include" />
           <e p="MainContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="NLog.Development.config" t="Include" />
@@ -62,44 +85,44 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Repositories" t="Include">
-          <e p="implementation" t="Include" />
-          <e p="model" t="Include" />
+          <e p="implementation" t="Include">
+            <e p="AccountRepository.cs" t="Include" />
+            <e p="UserFriendRepository.cs" t="Include" />
+          </e>
+          <e p="model" t="Include">
+            <e p="IAccountRepository.cs" t="Include" />
+            <e p="IUserFriendRepository.cs" t="Include" />
+          </e>
         </e>
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="GreenHouse.WebApi.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Enums" t="Include">
+          <e p="AccountType.cs" t="Include" />
+          <e p="DeforestState.cs" t="Include" />
+          <e p="OrderDirection.cs" t="Include" />
+        </e>
+        <e p="GraphQL" t="Include">
+          <e p="Enums" t="Include">
+            <e p="EnumTypes.cs" t="Include" />
+          </e>
+          <e p="filters" t="Include">
+            <e p="AccountFilter.cs" t="Include" />
+            <e p="UserFriendFilter.cs" t="Include" />
+          </e>
+          <e p="requestHelpers" t="Include">
+            <e p="OrderedRequest.cs" t="Include" />
+            <e p="PagedRequest.cs" t="Include" />
+          </e>
+        </e>
         <e p="GreenHouse.WebApi.Core.csproj" t="IncludeRecursive" />
         <e p="models" t="Include">
-          <e p="Enums" t="Include">
-            <e p="AccountType.cs" t="Include" />
-            <e p="DeforestState.cs" t="Include" />
-            <e p="OrderDirection.cs" t="Include" />
-          </e>
-          <e p="GraphQL" t="Include">
-            <e p="Enums" t="Include">
-              <e p="EnumTypes.cs" t="Include" />
-            </e>
-            <e p="filters" t="Include">
-              <e p="AccountFilter.cs" t="Include" />
-            </e>
-            <e p="requestHelpers" t="Include">
-              <e p="OrderedRequest.cs" t="Include" />
-              <e p="PagedRequest.cs" t="Include" />
-            </e>
-          </e>
-          <e p="MainModels" t="Include">
-            <e p="Account.cs" t="Include" />
-            <e p="Contributor.cs" t="Include" />
-            <e p="Report.cs" t="Include" />
-            <e p="Schedule.cs" t="Include" />
-            <e p="UserFriend.cs" t="Include" />
-          </e>
-          <e p="Tools" t="Include">
-            <e p="AppSettings.cs" t="Include" />
-            <e p="IIdentifier.cs" t="Include" />
-            <e p="ISearchTermFilter.cs" t="Include" />
-          </e>
+          <e p="Account.cs" t="Include" />
+          <e p="Contributor.cs" t="Include" />
+          <e p="Report.cs" t="Include" />
+          <e p="Schedule.cs" t="Include" />
+          <e p="UserFriend.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -107,6 +130,11 @@
               <e p="GreenHouse.WebApi.Core.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Tools" t="Include">
+          <e p="AppSettings.cs" t="Include" />
+          <e p="IIdentifier.cs" t="Include" />
+          <e p="ISearchTermFilter.cs" t="Include" />
         </e>
       </e>
       <e p="GreenHouse.WebApi.sln" t="IncludeFlat" />
