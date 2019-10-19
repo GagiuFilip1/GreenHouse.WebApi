@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace GreenHouse.Migrations
 {
-    public partial class MainModelsIntegration : Migration
+    public partial class ModelsInitialisation : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -28,7 +28,8 @@ namespace GreenHouse.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     UserId = table.Column<Guid>(nullable: false),
-                    FriendId = table.Column<Guid>(nullable: false)
+                    FriendId = table.Column<Guid>(nullable: false),
+                    AccountId = table.Column<Guid>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -123,6 +124,11 @@ namespace GreenHouse.Migrations
                 name: "IX_Contributors_UserId",
                 table: "Contributors",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Friends_AccountId",
+                table: "Friends",
+                column: "AccountId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Friends_FriendId",
