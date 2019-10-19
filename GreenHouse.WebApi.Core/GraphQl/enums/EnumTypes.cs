@@ -19,9 +19,9 @@ namespace GreenHouse.Core.GraphQl.enums
         }
     }
     
-    public class DeforestStateTypeEnum : EnumerationGraphType<DeforestState>
+    public class ForestStateTypeEnum : EnumerationGraphType<ForestState>
     {
-        public DeforestStateTypeEnum()
+        public ForestStateTypeEnum()
         {
             Name = "Deforestation State";
         }

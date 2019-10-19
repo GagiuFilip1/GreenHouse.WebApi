@@ -2,9 +2,10 @@ using System;
 using GreenHouse.Core.Enums;
 using GreenHouse.Core.Models;
 using GreenHouse.Core.Tools;
-using GreenHouse.GraphQL.helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using static GreenHouse.Core.Enums.AccountType;
+using static GreenHouse.Core.Enums.ForestState;
 
 namespace GreenHouse.Context
 {
@@ -96,13 +97,15 @@ namespace GreenHouse.Context
 
             modelBuilder.Entity<Report>().Property(t => t.State).HasConversion(
                 e => e.ToString(),
-                p => (DeforestState) Enum.Parse(typeof(DeforestState), p)
+                p => (ForestState) Enum.Parse(typeof(ForestState), p)
             ).HasColumnType("varchar(40)");
         }
 
         private static void SetDefaultValues(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Account>().Property(t => t.Type).HasDefaultValue(AccountType.User);
+            modelBuilder.Entity<Account>().Property(t => t.Type).HasDefaultValue(User);
+            modelBuilder.Entity<Report>().Property(t => t.State).HasDefaultValue(InProgress);
+            modelBuilder.Entity<Report>().Property(t => t.ReportedAt).HasDefaultValue(DateTime.UtcNow);
         }
     }
 }

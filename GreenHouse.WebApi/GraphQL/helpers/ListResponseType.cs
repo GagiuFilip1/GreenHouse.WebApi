@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using GraphQL.Types;
-using GreenHouse.Core.Models;
 using GreenHouse.GraphQL.actionModel.output;
 
 namespace GreenHouse.GraphQL.helpers
@@ -27,6 +26,10 @@ namespace GreenHouse.GraphQL.helpers
     }
     
     public class ListUserFriendQueryModelType : ListResponseType<UserFriendQueryType>
+    {
+    }
+    
+    public class ListReportQueryModelType : ListResponseType<ReportQueryType>
     {
     }
 }

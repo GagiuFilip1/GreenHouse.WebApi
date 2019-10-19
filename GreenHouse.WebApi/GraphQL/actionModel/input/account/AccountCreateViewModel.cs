@@ -14,7 +14,7 @@ namespace GreenHouse.GraphQL.actionModel.input.account
                 .Description("The email of the user");
             Field(t => t.Password, false, typeof(NonNullGraphType<StringGraphType>))
                 .Description("The password of the user");
-            Field(t => t.Type, false, typeof(NonNullGraphType<AccountTypeEnum>))
+            Field(t => t.Type, true, typeof(AccountTypeEnum))
                 .Description("The type of the user");
         }
     }

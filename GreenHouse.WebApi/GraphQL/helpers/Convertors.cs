@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Newtonsoft.Json;
-using ValueConverter = GraphQL.ValueConverter;
 
 namespace GreenHouse.GraphQL.helpers
 {

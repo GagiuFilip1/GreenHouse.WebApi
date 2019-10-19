@@ -18,6 +18,7 @@ namespace GreenHouse.IoC
         {
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IUserFriendRepository, UserFriendRepository>();
+            services.AddScoped<IReportRepository, ReportRepository>();
 
         }
 
@@ -28,11 +29,12 @@ namespace GreenHouse.IoC
             // Add Here GraphQl Enums
             services.AddSingleton<OrderDirectionEnum>();
             services.AddSingleton<AccountTypeEnum>();
-            services.AddSingleton<DeforestStateTypeEnum>();
+            services.AddSingleton<ForestStateTypeEnum>();
 
             // Add Here New Schemas
             services.AddScoped<ISchemaGroup, AccountSchema>();
             services.AddScoped<ISchemaGroup, UserFriendSchema>();
+            services.AddScoped<ISchemaGroup, ReportSchema>();
 
             services.AddScoped<RootSchema>();
             services.AddScoped<RootMutation>();

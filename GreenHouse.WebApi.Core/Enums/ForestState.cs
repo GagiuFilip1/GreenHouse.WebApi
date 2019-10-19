@@ -1,6 +1,6 @@
 namespace GreenHouse.Core.Enums
 {
-    public enum DeforestState
+    public enum ForestState
     {
         NotDeforested,
         Deforested,

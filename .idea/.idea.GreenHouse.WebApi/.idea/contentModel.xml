@@ -30,9 +30,14 @@
                 <e p="UserFriendCreateViewModel.cs" t="Include" />
                 <e p="UserFriendFilteredRequestType.cs" t="Include" />
               </e>
+              <e p="report" t="Include">
+                <e p="ReportCreateViewModel.cs" t="Include" />
+                <e p="ReportFilteredRequestType.cs" t="Include" />
+              </e>
             </e>
             <e p="output" t="Include">
               <e p="AccountQueryType.cs" t="Include" />
+              <e p="ReportQueryType.cs" t="Include" />
               <e p="UserFriendQueryType.cs" t="Include" />
             </e>
           </e>
@@ -44,11 +49,13 @@
           </e>
           <e p="mutation" t="Include">
             <e p="AccountMutation.cs" t="Include" />
+            <e p="ReportMutation.cs" t="Include" />
             <e p="RootMutation.cs" t="Include" />
             <e p="UserFriendMutation.cs" t="Include" />
           </e>
           <e p="queries" t="Include">
             <e p="AccountQuery.cs" t="Include" />
+            <e p="ReportQuery.cs" t="Include" />
             <e p="RootQuery.cs" t="Include" />
             <e p="UserFriendQuery.cs" t="Include" />
           </e>
@@ -59,6 +66,7 @@
             <e p="RootSchema.cs" t="Include" />
             <e p="schemaGroups" t="Include">
               <e p="AccountSchema.cs" t="Include" />
+              <e p="ReportSchema.cs" t="Include" />
               <e p="UserFriendSchema.cs" t="Include" />
             </e>
           </e>
@@ -70,6 +78,8 @@
         <e p="Migrations" t="Include">
           <e p="20191019113926_ModelsInitialisation.cs" t="Include" />
           <e p="20191019113926_ModelsInitialisation.Designer.cs" t="Include" />
+          <e p="20191019140106_DefaultValuesUpdate.cs" t="Include" />
+          <e p="20191019140106_DefaultValuesUpdate.Designer.cs" t="Include" />
           <e p="MainContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="NLog.Development.config" t="Include" />
@@ -87,10 +97,12 @@
         <e p="Repositories" t="Include">
           <e p="implementation" t="Include">
             <e p="AccountRepository.cs" t="Include" />
+            <e p="ReportRepository.cs" t="Include" />
             <e p="UserFriendRepository.cs" t="Include" />
           </e>
           <e p="model" t="Include">
             <e p="IAccountRepository.cs" t="Include" />
+            <e p="IReportRepository.cs" t="Include" />
             <e p="IUserFriendRepository.cs" t="Include" />
           </e>
         </e>
@@ -100,7 +112,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Enums" t="Include">
           <e p="AccountType.cs" t="Include" />
-          <e p="DeforestState.cs" t="Include" />
+          <e p="ForestState.cs" t="Include" />
           <e p="OrderDirection.cs" t="Include" />
         </e>
         <e p="GraphQL" t="Include">
@@ -109,6 +121,7 @@
           </e>
           <e p="filters" t="Include">
             <e p="AccountFilter.cs" t="Include" />
+            <e p="ReportFilter.cs" t="Include" />
             <e p="UserFriendFilter.cs" t="Include" />
           </e>
           <e p="requestHelpers" t="Include">

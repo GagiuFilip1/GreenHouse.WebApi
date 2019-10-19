@@ -19,7 +19,7 @@ namespace GreenHouse.Core.Models
         
         public string Description { get; set; }
 
-        public DeforestState State { get; set; }
+        public ForestState State { get; set; }
         
         public Account Account { get; set; }
         

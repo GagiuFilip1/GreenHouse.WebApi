@@ -1,8 +1,5 @@
 ﻿using System;
 using GraphQL.Types;
-using GreenHouse.Core.Models;
-using GreenHouse.GraphQL.actionModel.input.account;
-using GreenHouse.GraphQL.actionModel.input.friends;
 using GreenHouse.GraphQL.actionModel.output;
 using GreenHouse.Repositories.model;
 

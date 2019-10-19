@@ -12,7 +12,6 @@ namespace GreenHouse.Core.Models
         public DateTime StartDate { get; set; }
         
         public DateTime FinishDate { get; set; }
-        
         public Report Report { get; set; }
     }
 }

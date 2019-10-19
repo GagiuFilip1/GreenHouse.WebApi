@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using GraphQL.Types;
+﻿using GraphQL.Types;
 using GreenHouse.Core.GraphQl.enums;
 using GreenHouse.Core.Models;
-using GreenHouse.GraphQL.helpers;
 
 namespace GreenHouse.GraphQL.actionModel.output
 {
