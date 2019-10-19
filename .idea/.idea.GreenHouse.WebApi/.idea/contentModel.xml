@@ -38,6 +38,11 @@
                 <e p="ReportCreateViewModel.cs" t="Include" />
                 <e p="ReportFilteredRequestType.cs" t="Include" />
               </e>
+              <e p="requests" t="Include">
+                <e p="login" t="Include">
+                  <e p="LoginRequestCreateViewModel.cs" t="Include" />
+                </e>
+              </e>
               <e p="schedule" t="Include">
                 <e p="ScheduleCreateViewModel.cs" t="Include" />
                 <e p="ScheduleFilteredRequestType.cs" t="Include" />
@@ -47,6 +52,11 @@
               <e p="AccountQueryType.cs" t="Include" />
               <e p="ContributorQueryType.cs" t="Include" />
               <e p="ReportQueryType.cs" t="Include" />
+              <e p="requests" t="Include">
+                <e p="login" t="Include">
+                  <e p="LoginResponseQueryType.cs" t="Include" />
+                </e>
+              </e>
               <e p="ScheduleQueryType.cs" t="Include" />
               <e p="UserFriendQueryType.cs" t="Include" />
             </e>
@@ -61,6 +71,9 @@
             <e p="AccountMutation.cs" t="Include" />
             <e p="ContributorMutation.cs" t="Include" />
             <e p="ReportMutation.cs" t="Include" />
+            <e p="requests" t="Include">
+              <e p="LoginRequestMutation.cs" t="Include" />
+            </e>
             <e p="RootMutation.cs" t="Include" />
             <e p="ScheduleMutation.cs" t="Include" />
             <e p="UserFriendMutation.cs" t="Include" />
@@ -82,6 +95,9 @@
               <e p="AccountSchema.cs" t="Include" />
               <e p="ContributorSchema.cs" t="Include" />
               <e p="ReportSchema.cs" t="Include" />
+              <e p="requests" t="Include">
+                <e p="LoginSchema.cs" t="Include" />
+              </e>
               <e p="ScheduleSchema.cs" t="Include" />
               <e p="UserFriendSchema.cs" t="Include" />
             </e>
@@ -127,6 +143,14 @@
             <e p="IUserFriendRepository.cs" t="Include" />
           </e>
         </e>
+        <e p="Services" t="Include">
+          <e p="implementations" t="Include">
+            <e p="LoginService.cs" t="Include" />
+          </e>
+          <e p="models" t="Include">
+            <e p="ILoginService.cs" t="Include" />
+          </e>
+        </e>
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="GreenHouse.WebApi.Core" t="IncludeRecursive">
@@ -166,6 +190,13 @@
             <e p="netcoreapp2.2" t="Include">
               <e p="GreenHouse.WebApi.Core.AssemblyInfo.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Request" t="Include">
+          <e p="IResponse.cs" t="Include" />
+          <e p="login" t="Include">
+            <e p="LoginRequest.cs" t="Include" />
+            <e p="LoginResponse.cs" t="Include" />
           </e>
         </e>
         <e p="Tools" t="Include">

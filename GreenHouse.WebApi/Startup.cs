@@ -24,6 +24,7 @@ namespace GreenHouse
             services.AddScoped<AppSettings>();
             services.AddDbContext<MainContext>();
             ServicesRegistry.ResolveRepositories(services);
+            ServicesRegistry.ResolveServices(services);
             ServicesRegistry.ResolveGraphQl(services);
         }
 

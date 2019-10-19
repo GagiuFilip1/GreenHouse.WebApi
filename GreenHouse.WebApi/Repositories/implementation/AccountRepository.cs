@@ -7,10 +7,10 @@ using GreenHouse.Context.extensions;
 using GreenHouse.Core.GraphQl.filters;
 using GreenHouse.Core.GraphQl.requestHelpers;
 using GreenHouse.Core.Models;
-using GreenHouse.Encoder;
 using GreenHouse.Repositories.model;
 using Microsoft.EntityFrameworkCore;
 using static GreenHouse.Core.Enums.OrderDirection;
+using static GreenHouse.Encoder.ShaEncoder;
 
 namespace GreenHouse.Repositories.implementation
 {
@@ -23,7 +23,7 @@ namespace GreenHouse.Repositories.implementation
         public async Task<Account> AddAsync(Account account)
         {
             account.Id = Guid.NewGuid();
-            account.Password = await ShaEncoder.Encode(account.Password);
+            account.Password = await Encode(account.Password);
             await m_context.Accounts.AddAsync(account);
             await m_context.SaveChangesAsync();
             return account;

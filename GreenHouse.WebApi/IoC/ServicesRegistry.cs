@@ -6,8 +6,11 @@ using GreenHouse.GraphQL.mutation;
 using GreenHouse.GraphQL.schemas;
 using GreenHouse.GraphQL.schemas.models;
 using GreenHouse.GraphQL.schemas.schemaGroups;
+using GreenHouse.GraphQL.schemas.schemaGroups.requests;
 using GreenHouse.Repositories.implementation;
 using GreenHouse.Repositories.model;
+using GreenHouse.Services.implementations;
+using GreenHouse.Services.models;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace GreenHouse.IoC
@@ -22,6 +25,11 @@ namespace GreenHouse.IoC
             services.AddScoped<IScheduleRepository, ScheduleRepository>();
         }
 
+        public static void ResolveServices(IServiceCollection services)
+        {
+            services.AddScoped<ILoginService, LoginService>();
+        }
+        
         public static void ResolveGraphQl(IServiceCollection services)
         {
             services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
@@ -36,6 +44,7 @@ namespace GreenHouse.IoC
             services.AddScoped<ISchemaGroup, UserFriendSchema>();
             services.AddScoped<ISchemaGroup, ReportSchema>();
             services.AddScoped<ISchemaGroup, ScheduleSchema>();
+            services.AddScoped<ISchemaGroup, LoginSchema>();
 
             services.AddScoped<RootSchema>();
             services.AddScoped<RootMutation>();
