@@ -53,7 +53,7 @@ namespace GreenHouse.Context
             modelBuilder.Entity<UserFriend>().HasOne(t => t.User)
                 .WithMany(t => t.Friends)
                 .HasForeignKey(t => t.UserId);
-
+            
             modelBuilder.Entity<Report>().HasOne(t => t.Account)
                 .WithMany(t => t.UserReports)
                 .HasForeignKey(t => t.UserId);

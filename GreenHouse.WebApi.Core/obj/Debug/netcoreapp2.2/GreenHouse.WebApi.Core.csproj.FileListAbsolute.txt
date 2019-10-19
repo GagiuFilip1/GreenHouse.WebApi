@@ -6,3 +6,12 @@
 /home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.AssemblyInfo.cs
 /home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.dll
 /home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.pdb
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.deps.json
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.dll
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.pdb
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.csprojAssemblyReference.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.AssemblyInfoInputs.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.AssemblyInfo.cs
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.dll
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi.Core\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.pdb

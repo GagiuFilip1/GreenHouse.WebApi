@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/GreenHouse.WebApi.Core.csproj": {}
+    "C:\\Users\\Gagiu Filip\\Documents\\GitHub\\GreenHouse.WebApi\\GreenHouse.WebApi.Core\\GreenHouse.WebApi.Core.csproj": {}
   },
   "projects": {
-    "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/GreenHouse.WebApi.Core.csproj": {
+    "C:\\Users\\Gagiu Filip\\Documents\\GitHub\\GreenHouse.WebApi\\GreenHouse.WebApi.Core\\GreenHouse.WebApi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/GreenHouse.WebApi.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Gagiu Filip\\Documents\\GitHub\\GreenHouse.WebApi\\GreenHouse.WebApi.Core\\GreenHouse.WebApi.Core.csproj",
         "projectName": "GreenHouse.WebApi.Core",
-        "projectPath": "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/GreenHouse.WebApi.Core.csproj",
-        "packagesPath": "/home/filip/.nuget/packages/",
-        "outputPath": "/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/",
+        "projectPath": "C:\\Users\\Gagiu Filip\\Documents\\GitHub\\GreenHouse.WebApi\\GreenHouse.WebApi.Core\\GreenHouse.WebApi.Core.csproj",
+        "packagesPath": "C:\\Users\\Gagiu Filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gagiu Filip\\Documents\\GitHub\\GreenHouse.WebApi\\GreenHouse.WebApi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/filip/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Gagiu Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,12 +53,7 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
           "warn": true

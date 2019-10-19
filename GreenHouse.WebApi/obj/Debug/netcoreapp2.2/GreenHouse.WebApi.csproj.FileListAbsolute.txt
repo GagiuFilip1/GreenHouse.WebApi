@@ -19,3 +19,21 @@
 /home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.csproj.CopyComplete
 /home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.dll
 /home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.pdb
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.dll.config
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.deps.json
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.runtimeconfig.json
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.runtimeconfig.dev.json
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.dll
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.pdb
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.dll
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\bin\Debug\netcoreapp2.2\GreenHouse.WebApi.Core.pdb
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.csprojAssemblyReference.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.RazorAssemblyInfo.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.RazorAssemblyInfo.cs
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.AssemblyInfoInputs.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.AssemblyInfo.cs
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.csproj.CopyComplete
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.dll
+C:\Users\Gagiu Filip\Documents\GitHub\GreenHouse.WebApi\GreenHouse.WebApi\obj\Debug\netcoreapp2.2\GreenHouse.WebApi.pdb
