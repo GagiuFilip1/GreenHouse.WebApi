@@ -26,6 +26,10 @@
                 <e p="AccountCreateViewModel.cs" t="Include" />
                 <e p="AccountFilteredRequestType.cs" t="Include" />
               </e>
+              <e p="contributor" t="Include">
+                <e p="ContributorCreateViewModel.cs" t="Include" />
+                <e p="ContributorFilteredRequestType.cs" t="Include" />
+              </e>
               <e p="friends" t="Include">
                 <e p="UserFriendCreateViewModel.cs" t="Include" />
                 <e p="UserFriendFilteredRequestType.cs" t="Include" />
@@ -41,6 +45,7 @@
             </e>
             <e p="output" t="Include">
               <e p="AccountQueryType.cs" t="Include" />
+              <e p="ContributorQueryType.cs" t="Include" />
               <e p="ReportQueryType.cs" t="Include" />
               <e p="ScheduleQueryType.cs" t="Include" />
               <e p="UserFriendQueryType.cs" t="Include" />
@@ -54,6 +59,7 @@
           </e>
           <e p="mutation" t="Include">
             <e p="AccountMutation.cs" t="Include" />
+            <e p="ContributorMutation.cs" t="Include" />
             <e p="ReportMutation.cs" t="Include" />
             <e p="RootMutation.cs" t="Include" />
             <e p="ScheduleMutation.cs" t="Include" />
@@ -61,6 +67,7 @@
           </e>
           <e p="queries" t="Include">
             <e p="AccountQuery.cs" t="Include" />
+            <e p="ContributorQuery.cs" t="Include" />
             <e p="ReportQuery.cs" t="Include" />
             <e p="RootQuery.cs" t="Include" />
             <e p="ScheduleQuery.cs" t="Include" />
@@ -73,6 +80,7 @@
             <e p="RootSchema.cs" t="Include" />
             <e p="schemaGroups" t="Include">
               <e p="AccountSchema.cs" t="Include" />
+              <e p="ContributorSchema.cs" t="Include" />
               <e p="ReportSchema.cs" t="Include" />
               <e p="ScheduleSchema.cs" t="Include" />
               <e p="UserFriendSchema.cs" t="Include" />
@@ -106,12 +114,14 @@
           <e p=".gitignore" t="Include" />
           <e p="implementation" t="Include">
             <e p="AccountRepository.cs" t="Include" />
+            <e p="ContributorRepository.cs" t="Include" />
             <e p="ReportRepository.cs" t="Include" />
             <e p="ScheduleRepository.cs" t="Include" />
             <e p="UserFriendRepository.cs" t="Include" />
           </e>
           <e p="model" t="Include">
             <e p="IAccountRepository.cs" t="Include" />
+            <e p="IContributorRepository.cs" t="Include" />
             <e p="IReportRepository.cs" t="Include" />
             <e p="IScheduleRepository.cs" t="Include" />
             <e p="IUserFriendRepository.cs" t="Include" />
@@ -133,6 +143,7 @@
           </e>
           <e p="filters" t="Include">
             <e p="AccountFilter.cs" t="Include" />
+            <e p="ContributorFilter.cs" t="Include" />
             <e p="ReportFilter.cs" t="Include" />
             <e p="ScheduleFilter.cs" t="Include" />
             <e p="UserFriendFilter.cs" t="Include" />

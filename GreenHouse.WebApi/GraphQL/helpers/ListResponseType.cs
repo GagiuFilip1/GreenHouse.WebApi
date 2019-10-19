@@ -36,4 +36,8 @@ namespace GreenHouse.GraphQL.helpers
     public class ListScheduleQueryModelType : ListResponseType<ScheduleQueryType>
     {
     }
+    
+    public class ListContributorQueryModelType : ListResponseType<ContributorQueryType>
+    {
+    }
 }
