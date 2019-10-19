@@ -8,7 +8,6 @@ namespace GreenHouse.Core.Models
         public Guid Id { get; set; }
         public Guid UserId { get; set; }
         public Guid FriendId { get; set; }
-        
         public Account User { get; set; }
     }
 }

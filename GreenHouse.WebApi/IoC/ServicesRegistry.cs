@@ -19,7 +19,7 @@ namespace GreenHouse.IoC
             services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IUserFriendRepository, UserFriendRepository>();
             services.AddScoped<IReportRepository, ReportRepository>();
-
+            services.AddScoped<IScheduleRepository, ScheduleRepository>();
         }
 
         public static void ResolveGraphQl(IServiceCollection services)
@@ -35,6 +35,7 @@ namespace GreenHouse.IoC
             services.AddScoped<ISchemaGroup, AccountSchema>();
             services.AddScoped<ISchemaGroup, UserFriendSchema>();
             services.AddScoped<ISchemaGroup, ReportSchema>();
+            services.AddScoped<ISchemaGroup, ScheduleSchema>();
 
             services.AddScoped<RootSchema>();
             services.AddScoped<RootMutation>();
