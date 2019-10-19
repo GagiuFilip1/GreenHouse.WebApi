@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_GreenHouse.WebApi.-1599898396.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/nlog.schema/4.6.7/contentFiles/any/any/NLog.xsd" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="GreenHouse.WebApi" t="IncludeRecursive">
+        <e p="Context" t="Include">
+          <e p="MainContext.cs" t="Include" />
+          <e p="extensions" t="Include">
+            <e p="DataContextExtensions.cs" t="Include" />
+            <e p="OrderedQueryableExtension.cs" t="Include" />
+          </e>
+        </e>
+        <e p="GraphQL" t="Include">
+          <e p="actionModel" t="Include">
+            <e p="input" t="Include" />
+            <e p="output" t="Include" />
+          </e>
+          <e p="helpers" t="Include">
+            <e p="ListResponseType.cs" t="Include" />
+            <e p="OrderedRequestType.cs" t="Include" />
+            <e p="PagedRequestType.cs" t="Include" />
+          </e>
+          <e p="mutation" t="Include">
+            <e p="RootMutation.cs" t="Include" />
+          </e>
+          <e p="queries" t="Include">
+            <e p="RootQuery.cs" t="Include" />
+          </e>
+          <e p="schemas" t="Include">
+            <e p="RootSchema.cs" t="Include" />
+            <e p="models" t="Include">
+              <e p="ISchemaGroup.cs" t="Include" />
+            </e>
+            <e p="schemaGroups" t="Include" />
+          </e>
+        </e>
+        <e p="GreenHouse.WebApi.csproj" t="IncludeRecursive" />
+        <e p="IoC" t="Include">
+          <e p="ServicesRegistry.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include" />
+        <e p="NLog.Development.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="implementation" t="Include" />
+          <e p="model" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="GreenHouse.WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="GreenHouse.WebApi.Core" t="IncludeRecursive">
+        <e p="GreenHouse.WebApi.Core.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Enums" t="Include">
+            <e p="AccountType.cs" t="Include" />
+            <e p="OrderDirection.cs" t="Include" />
+          </e>
+          <e p="GraphQl" t="Include">
+            <e p="enums" t="Include">
+              <e p="EnumTypes.cs" t="Include" />
+            </e>
+            <e p="filters" t="Include">
+              <e p="AccountFilter.cs" t="Include" />
+            </e>
+            <e p="requestHelpers" t="Include">
+              <e p="OrderedRequest.cs" t="Include" />
+              <e p="PagedRequest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MainModels" t="Include">
+            <e p="Account.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="AppSettings.cs" t="Include" />
+            <e p="IIdentifier.cs" t="Include" />
+            <e p="ISearchTermFilter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="GreenHouse.WebApi.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="GreenHouse.WebApi.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

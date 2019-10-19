@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>GreenHouse.Core</RootNamespace>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\tOOLS" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="GraphQL" Version="2.4.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/filip/Documents/GitHub/IntDesign.Calculus/IntDesign.WebApi.Core/IntDesign.WebApi.Core.csproj": {}
+  },
+  "projects": {
+    "/home/filip/Documents/GitHub/IntDesign.Calculus/IntDesign.WebApi.Core/IntDesign.WebApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/filip/Documents/GitHub/IntDesign.Calculus/IntDesign.WebApi.Core/IntDesign.WebApi.Core.csproj",
+        "projectName": "IntDesign.WebApi.Core",
+        "projectPath": "/home/filip/Documents/GitHub/IntDesign.Calculus/IntDesign.WebApi.Core/IntDesign.WebApi.Core.csproj",
+        "packagesPath": "/home/filip/.nuget/packages/",
+        "outputPath": "/home/filip/Documents/GitHub/IntDesign.Calculus/IntDesign.WebApi.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/filip/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

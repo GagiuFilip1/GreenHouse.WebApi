@@ -1,0 +1,21 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.WebApi", "GreenHouse.WebApi\GreenHouse.WebApi.csproj", "{EF7FEE61-0BBE-4966-90EE-029C9A314606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.WebApi.Core", "GreenHouse.WebApi.Core\GreenHouse.WebApi.Core.csproj", "{55F59C95-759D-4E67-9A19-909D025124E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7FEE61-0BBE-4966-90EE-029C9A314606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7FEE61-0BBE-4966-90EE-029C9A314606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7FEE61-0BBE-4966-90EE-029C9A314606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7FEE61-0BBE-4966-90EE-029C9A314606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F59C95-759D-4E67-9A19-909D025124E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F59C95-759D-4E67-9A19-909D025124E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F59C95-759D-4E67-9A19-909D025124E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F59C95-759D-4E67-9A19-909D025124E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

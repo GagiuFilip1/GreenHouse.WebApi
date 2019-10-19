@@ -1,0 +1,8 @@
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/bin/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.deps.json
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/bin/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.dll
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/bin/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.pdb
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.csprojAssemblyReference.cache
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.AssemblyInfoInputs.cache
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.AssemblyInfo.cs
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.dll
+/home/filip/Documents/GitHub/GreenHouse.WebApi/GreenHouse.WebApi.Core/obj/Debug/netcoreapp2.2/GreenHouse.WebApi.Core.pdb
